@@ -1,0 +1,65 @@
+﻿@model IEnumerable<Airline_Client.Models.Ticket>
+
+@{
+    ViewData["Title"] = "Get_All_Bookings";
+}
+
+<h1>All Completed Bookings</h1>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TicketId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PassengerName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Age)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateOfJourney)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StartingLocation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Destination)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FlightId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TicketId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PassengerName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Age)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateOfJourney)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StartingLocation)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Destination)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FlightId)
+            </td>
+           
+        </tr>
+}
+    </tbody>
+</table>

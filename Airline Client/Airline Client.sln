@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Airline Client", "Airline Client.csproj", "{567B2574-8752-4972-82B1-F7AA272DDC29}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ticket Service", "..\Ticket Service\Ticket Service.csproj", "{DF7C955C-1952-4A2A-92EF-53ADD6BC53C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Availability_Service", "..\Availability_Service\Availability_Service.csproj", "{0D61D78B-2340-43E9-9E22-E6DB4521BC4C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth_Service_Test", "..\Auth_Service_Test\Auth_Service_Test.csproj", "{209D700A-FCD6-494B-9C6A-8D7CC24BEC75}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Availability_Service_Test", "..\Availability_Test\Availability_Service_Test.csproj", "{410450A2-337C-4D2B-9BC1-91ECAFD0A7EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ticket_Service_Test", "..\TicketService_Test\Ticket_Service_Test.csproj", "{2EA9361D-E9FF-4E6F-9656-A2536B9BC895}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth Service", "..\Auth_Service\Auth Service.csproj", "{13B83898-4BC6-4918-AA5D-26BAD0AC6022}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{567B2574-8752-4972-82B1-F7AA272DDC29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{567B2574-8752-4972-82B1-F7AA272DDC29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{567B2574-8752-4972-82B1-F7AA272DDC29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{567B2574-8752-4972-82B1-F7AA272DDC29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF7C955C-1952-4A2A-92EF-53ADD6BC53C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF7C955C-1952-4A2A-92EF-53ADD6BC53C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF7C955C-1952-4A2A-92EF-53ADD6BC53C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF7C955C-1952-4A2A-92EF-53ADD6BC53C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D61D78B-2340-43E9-9E22-E6DB4521BC4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D61D78B-2340-43E9-9E22-E6DB4521BC4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D61D78B-2340-43E9-9E22-E6DB4521BC4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D61D78B-2340-43E9-9E22-E6DB4521BC4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{209D700A-FCD6-494B-9C6A-8D7CC24BEC75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{209D700A-FCD6-494B-9C6A-8D7CC24BEC75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{209D700A-FCD6-494B-9C6A-8D7CC24BEC75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{209D700A-FCD6-494B-9C6A-8D7CC24BEC75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{410450A2-337C-4D2B-9BC1-91ECAFD0A7EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{410450A2-337C-4D2B-9BC1-91ECAFD0A7EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{410450A2-337C-4D2B-9BC1-91ECAFD0A7EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{410450A2-337C-4D2B-9BC1-91ECAFD0A7EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EA9361D-E9FF-4E6F-9656-A2536B9BC895}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EA9361D-E9FF-4E6F-9656-A2536B9BC895}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EA9361D-E9FF-4E6F-9656-A2536B9BC895}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EA9361D-E9FF-4E6F-9656-A2536B9BC895}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13B83898-4BC6-4918-AA5D-26BAD0AC6022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13B83898-4BC6-4918-AA5D-26BAD0AC6022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13B83898-4BC6-4918-AA5D-26BAD0AC6022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13B83898-4BC6-4918-AA5D-26BAD0AC6022}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F1DD3AE-ED14-4B2E-B3F4-D8BD9FCFE2A6}
+	EndGlobalSection
+EndGlobal

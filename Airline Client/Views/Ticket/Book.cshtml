@@ -1,0 +1,55 @@
+﻿@model Airline_Client.Models.Ticket
+
+@{
+    ViewData["Title"] = "Book";
+}
+
+<h1>Book</h1>
+
+<h4>Ticket</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Book">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="PassengerName" class="control-label"></label>
+                <input asp-for="PassengerName" class="form-control" />
+                <span asp-validation-for="PassengerName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Age" class="control-label"></label>
+                <input asp-for="Age" class="form-control" />
+                <span asp-validation-for="Age" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateOfJourney" class="control-label"></label>
+                <input asp-for="DateOfJourney" class="form-control" />
+                <span asp-validation-for="DateOfJourney" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StartingLocation" class="control-label"></label>
+                <input asp-for="StartingLocation" class="form-control" />
+                <span asp-validation-for="StartingLocation" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Destination" class="control-label"></label>
+                <input asp-for="Destination" class="form-control" />
+                <span asp-validation-for="Destination" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FlightId" class="control-label"></label>
+                <input asp-for="FlightId" class="form-control" />
+                <span asp-validation-for="FlightId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Book" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
