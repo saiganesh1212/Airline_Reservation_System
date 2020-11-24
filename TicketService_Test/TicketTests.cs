@@ -62,7 +62,7 @@ namespace TicketService_Test
         }
         
         [Test]
-        public void Book_Ticket_Test()
+        public void Book_Ticket_Success_Test()
         {
             Ticket ticket = new Ticket() { TicketId = 1, Age = 22, PassengerName = "Ram", FlightId = 1, StartingLocation = "Pune", Destination = "Agra", DateOfJourney = new System.DateTime(2020, 11, 24) };
             controller = new TicketController(ticketrepo);
@@ -72,6 +72,14 @@ namespace TicketService_Test
             
         }
         
+        [Test]
+        public void Book_Ticket_Failure_Test()
+        {
+            Ticket ticket = new Ticket() { TicketId = 1, PassengerName = "Ram", FlightId = 1, StartingLocation = "Pune", Destination = "Agra", DateOfJourney = new System.DateTime(2020, 11, 24) };
+            controller = new TicketController(ticketrepo);
+            var res1 = controller.Book_Ticket(ticket) as StatusCodeResult;
+            Assert.AreEqual(400, res1.StatusCode);
+        }
         
     }
 }
