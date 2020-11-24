@@ -49,7 +49,6 @@ namespace Airline_Client.Controllers
                     HttpContext.Session.SetString("token", jwt.Token);
                     HttpContext.Session.SetString("user", JsonConvert.SerializeObject(user));
 
-                    HttpContext.Session.SetInt32("Userid", user.UserId);
                     HttpContext.Session.SetString("Username", user.Username);
                     ViewBag.Message = "User logged in successfully!";
                     return RedirectToAction("Index", "Ticket");

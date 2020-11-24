@@ -30,7 +30,7 @@ namespace TicketService_Test
             tickets = new List<Ticket>()
             {
                 new Ticket{TicketId=1,Age=22,PassengerName="Ganesh",FlightId=1,StartingLocation="Pune",Destination="Agra",DateOfJourney=new System.DateTime(2020,11,24) },
-                new Ticket{TicketId=1,Age=22,PassengerName="Suresh",FlightId=2,StartingLocation="Mumbai",Destination="Delhi",DateOfJourney=new System.DateTime(2020,11,22)
+                new Ticket{TicketId=2,Age=22,PassengerName="Suresh",FlightId=2,StartingLocation="Mumbai",Destination="Delhi",DateOfJourney=new System.DateTime(2020,11,22)
                 }
             };
 
@@ -52,7 +52,7 @@ namespace TicketService_Test
         }
 
         [Test]
-        public void Get_All_Tickets_Test()
+        public void Get_All_Tickets__Success_Test()
         {
             controller = new TicketController(ticketrepo);
             var res = controller.Get_All_Tickets() as OkObjectResult;
@@ -60,6 +60,7 @@ namespace TicketService_Test
             Assert.AreEqual(200, res.StatusCode);
             Assert.IsInstanceOf<List<Ticket>>(res.Value);
         }
+        
         
         [Test]
         public void Book_Ticket_Success_Test()
@@ -75,10 +76,13 @@ namespace TicketService_Test
         [Test]
         public void Book_Ticket_Failure_Test()
         {
-            Ticket ticket = new Ticket() { TicketId = 1, PassengerName = "Ram", FlightId = 1, StartingLocation = "Pune", Destination = "Agra", DateOfJourney = new System.DateTime(2020, 11, 24) };
-            controller = new TicketController(ticketrepo);
+            Ticket ticket = new Ticket() { TicketId = 1, PassengerName = "Ram", FlightId = 4, StartingLocation = "Pune", Destination = "Agra", DateOfJourney = new System.DateTime(2020, 11, 24) };
+            
+            Mock<ITicketBookingRepo> bookrepo = new Mock<ITicketBookingRepo>();
+            bookrepo.Setup(x => x.BookTicket(It.IsAny<Ticket>())).Returns(false);
+            controller = new TicketController(bookrepo.Object);
             var res1 = controller.Book_Ticket(ticket) as StatusCodeResult;
-            Assert.AreEqual(400, res1.StatusCode);
+            Assert.AreEqual(204, res1.StatusCode);
         }
         
     }
