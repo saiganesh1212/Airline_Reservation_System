@@ -1,0 +1,73 @@
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\Ticket Service.exe
+C:\Users\Ganesh\source\repos\Ticket Service\obj\Debug\netcoreapp3.1\Ticket Service.csprojAssemblyReference.cache
+C:\Users\Ganesh\source\repos\Ticket Service\obj\Debug\netcoreapp3.1\Ticket Service.AssemblyInfoInputs.cache
+C:\Users\Ganesh\source\repos\Ticket Service\obj\Debug\netcoreapp3.1\Ticket Service.AssemblyInfo.cs
+C:\Users\Ganesh\source\repos\Ticket Service\obj\Debug\netcoreapp3.1\Ticket Service.RazorTargetAssemblyInfo.cache
+C:\Users\Ganesh\source\repos\Ticket Service\obj\Debug\netcoreapp3.1\staticwebassets\Ticket Service.StaticWebAssets.Manifest.cache
+C:\Users\Ganesh\source\repos\Ticket Service\obj\Debug\netcoreapp3.1\staticwebassets\Ticket Service.StaticWebAssets.xml
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\log4net.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Ganesh\source\repos\Ticket Service\obj\Debug\netcoreapp3.1\Ticket Service.csproj.CopyComplete
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\log4net.config
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\Ticket Service.deps.json
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\Ticket Service.runtimeconfig.json
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\Ticket Service.runtimeconfig.dev.json
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\Ticket Service.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\Ticket Service.pdb
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\System.Web.Http.dll
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\Ganesh\source\repos\Ticket Service\obj\Debug\netcoreapp3.1\Ticket Service.dll
+C:\Users\Ganesh\source\repos\Ticket Service\obj\Debug\netcoreapp3.1\Ticket Service.pdb
+C:\Users\Ganesh\source\repos\Ticket Service\obj\Debug\netcoreapp3.1\Ticket Service.genruntimeconfig.cache
+C:\Users\Ganesh\source\repos\Ticket Service\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Ganesh\source\repos\Ticket Service\obj\Debug\netcoreapp3.1\Ticket Service.csproj.CoreCompileInputs.cache
+C:\Users\Ganesh\source\repos\Ticket Service\obj\Debug\netcoreapp3.1\Ticket Service.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Ganesh\source\repos\Ticket Service\obj\Debug\netcoreapp3.1\Ticket Service.MvcApplicationPartsAssemblyInfo.cache
